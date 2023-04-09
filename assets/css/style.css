@@ -8,6 +8,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  /*align-items: flex-start; /* Change this line */
   padding: 1%;
   background-color: #13293d;
   color: #fff;
@@ -42,8 +43,18 @@ header {
 }
 
 
+
 h1 {
   font-size: 200%;
+  display: inline; /* Set display to inline so the image can appear next to the text */
+}
+
+.avatar {
+  height: auto; /* Maintain the aspect ratio of the image */
+  max-height: 2em; /* Adjust this value based on the font-size of h1 */
+  vertical-align: middle; /* Align the image with the text vertically */
+  margin-left: 10px; /* Add some space between the image and the text */
+  display: inline;
 }
 
 h2 {
@@ -54,6 +65,8 @@ h2 {
 nav ul {
   display: flex;
   justify-content: space-between;
+  justify-content: space-between;
+  align-items: center;
   min-width: 300px;
 }
 
@@ -80,6 +93,7 @@ nav a:hover {
 }*/
 
 article {
+  padding: 1%;    
   border-bottom: 1px solid #d8a47f;
 }
 
@@ -110,7 +124,7 @@ footer {
   font-size:160%;
 }
 .links {
-  display: none;
+  /*display: none;*/
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   list-style: square;
 }
@@ -157,6 +171,23 @@ footer {
   min-width: 400px;
 }
 
+@media screen and (max-width: 1024px) {
+  header, main {
+    flex-direction: column;
+  }
+
+  section {
+    padding-right: 0;
+  }
+
+  .card:nth-child(2),
+  .card:nth-child(3),  
+  .card:nth-child(4) {
+    flex: 1 0 50%;
+  }
+}
+
+
 @media screen and (max-width: 768px) {
   header, main {
     flex-direction: column;
@@ -174,13 +205,3 @@ footer {
 }
 
 
-@media screen and (max-width: 768px) {
-  header, main {
-    flex-direction: column;
-  }
-
-  section {
-    padding-right: 0;
-  }
-
-}
