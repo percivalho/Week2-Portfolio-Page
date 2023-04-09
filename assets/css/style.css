@@ -45,13 +45,13 @@ header {
 
 
 h1 {
-  font-size: 200%;
+  font-size: 300%;
   display: inline; /* Set display to inline so the image can appear next to the text */
 }
 
 .avatar {
   height: auto; /* Maintain the aspect ratio of the image */
-  max-height: 2em; /* Adjust this value based on the font-size of h1 */
+  max-height: 3em; /* Adjust this value based on the font-size of h1 */
   vertical-align: middle; /* Align the image with the text vertically */
   margin-left: 10px; /* Add some space between the image and the text */
   display: inline;
