@@ -2,6 +2,8 @@
 
 ## 02 Advanced CSS: Portfolio
 
+A portfolio of work showcasing your skills and talents to employers is a critical asset when looking for a part-time or full-time position. This portfolio demonstrates core skills like flexbox, media queries, and CSS variables, while also serving as a useful tool during your job search.
+
 ## User Story
 
 ```
@@ -41,9 +43,9 @@ open index.html in Google Chrome (recommended) or other internet browser to see 
 
 ## Features
 
-A portfolio of work can showcase your skills and talents to employers looking to fill a part-time or full-time position. An effective portfolio highlights your strongest work as well as the thought processes behind it. Students who have portfolios with deployed web applications (meaning they are live on the web) are typically very successful in their career search after the boot camp. This last point can’t be stressed enough: having several deployed projects is a minimum requirement to receive an initial interview at many companies. 
+An effective portfolio highlights your strongest work as well as the thought processes behind it. Students who have portfolios with deployed web applications (meaning they are live on the web) are typically very successful in their career search after the boot camp. This last point can’t be stressed enough: having several deployed projects is a minimum requirement to receive an initial interview at many companies.
 
-With these points in mind, in this Challenge you’ll set yourself up for future success by applying the core skills you've recently learned: flexbox, media queries, and CSS variables. You'll get to practice your new skills while creating something that you will use during your job search. It’s a win-win that you'll likely be grateful for in the future!
+With these points in mind, this Challenge allows you to set yourself up for future success by applying the core skills you've recently learned. You'll get to practice your new skills while creating something that you will use during your job search. It’s a win-win that you'll likely be grateful for in the future!
 
 ## Tests
 

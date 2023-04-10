@@ -168,13 +168,11 @@ footer {
   color: var(--light);
 }
 
-/* TODO: Add styles that will hide the resource links by default */
 .resources h3 {
   font-size:160%;
 }
 
 .links {
-  /*display: none;*/
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   list-style: square;
 }
@@ -198,7 +196,6 @@ footer {
   border-width: 1px;
   box-sizing: border-box;
 }
-
 
 
 .card:first-child {
