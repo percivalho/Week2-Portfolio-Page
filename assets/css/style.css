@@ -17,7 +17,7 @@ header {
   /*display: flex;
   justify-content: space-between;
   align-items: center;*/
-  padding: 1%;
+  padding: 3%;
   background-color: var(--dark);
   color: var(--light);
 }
@@ -80,8 +80,10 @@ nav a:focus {
 }
 
 main {
-  max-width: 1000px;
+  /*max-width: 1000px;*/
   margin: 1rem auto;
+  margin-left: 3%;
+  margin-right: 3%;
   padding: 0 0rem;
 }
 
@@ -120,7 +122,7 @@ article ul {
 }
 
 .card {
-  flex: 1 0 900px;
+  /*flex: 1 0 900px;*/
   padding: 10px;
   text-align: center;
   border-style: solid;
@@ -139,7 +141,7 @@ article ul {
 .card img {
   width: 100%;
   /* The client insists that images be at least 400px */
-  min-width: 400px;
+  min-width: 300px;
 }
 
 /* Increase brightness on hover */
@@ -188,6 +190,8 @@ footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin-bottom: 2rem;
+
 }
 
 .card {
@@ -195,6 +199,8 @@ footer {
   border-style: solid;
   border-width: 1px;
   box-sizing: border-box;
+
+  
 }
 
 
@@ -205,7 +211,7 @@ footer {
 .card:nth-child(2),
 .card:nth-child(3),
 .card:nth-child(4) {
-  flex: 1 0 33%;
+  flex: 1 0 30%;
 }
 
 .card header {
