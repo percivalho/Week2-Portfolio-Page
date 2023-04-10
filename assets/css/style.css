@@ -147,7 +147,7 @@ article ul {
 /* Increase brightness on hover */
 .card:hover {
   filter: brightness(1.2);
-  transform: scale(1.2);
+  transform: scale(1.05);
 }
 
 .card:hover::before {
@@ -211,6 +211,7 @@ footer {
 .card:nth-child(2),
 .card:nth-child(3),
 .card:nth-child(4) {
+  /* 3% margin left and right and also 3 pic on the same level 30x3+2x3 = 96 to make it able to display 3 pic*/
   flex: 1 0 30%;
 }
 
