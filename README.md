@@ -49,7 +49,12 @@ With these points in mind, this Challenge allows you to set yourself up for futu
 
 ## Tests
 
-open index.html in Google Chrome (recommended) or other internet browser to see the webpage.
+Link to Deployed Website:
+https://percivalho.github.io/Week2-Portfolio-Page/
+
+Link to GitHub repo:
+https://github.com/percivalho/Week2-Portfolio-Page.git
+
 
 ## License 
 
